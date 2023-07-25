@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Attend" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-21H6HAU\DESKTOP;Initial Catalog=Attend;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False" SettingsObjectName="Attend.Properties.Settings" SettingsPropertyName="AttendConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Inventory" Member="Inventories">
+    <Type Name="Inventory">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Date_Added" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Name" Type="System.String" DbType="NVarChar(200)" CanBeNull="true" />
+      <Column Name="Manufacture" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Cost_Price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Sell_Price" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Model_Name" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Loacation" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Condition" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Availabel" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Allocated" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Suppliers" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Category" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Serial_Number" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Notes" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Image" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX)" CanBeNull="true" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MRO" Member="MROs">
+    <Type Name="MRO">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Room_Number" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Room_Type" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Phone" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Condition" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MRE" Member="MREs">
+    <Type Name="MRE">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Reserv_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Client_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Room_T" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Room_N" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Date_IN" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Date_OUT" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MC" Member="MCs">
+    <Type Name="MC">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="First_Name" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Last_Name" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Phone_C" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Country" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="Image_C" Type="System.Data.Linq.Binary" DbType="VarBinary(MAX) NOT NULL" CanBeNull="false" UpdateCheck="Never" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FIC" Member="FICs">
+    <Type Name="FIC">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Year" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Income" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
