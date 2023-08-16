@@ -11,3 +11,7 @@ For example, you can Manage Rooms, Clients and Reservation in Hotel. You can Add
 You Can Manage Your Reservation. You can Add Reservation, Delete them and Edit Them. You can Search Reservation and you can Export Yours Reservations as Excel File.
 
 ![Screenshot (364)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/118833e6-1acc-4da3-a04f-9ad0edcd08ca)
+
+You can Manage Your Clients. You Can Add Clients, Upload Client's Face And Edit Clients Information. You Can Search Your Clients with Theirs Information eventually see Your Clients Information. You can Export Your Clients Information as excel File.
+
+![Screenshot (365)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/34bd8544-22fb-47bd-be03-8dfc411de013)
