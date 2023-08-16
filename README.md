@@ -1,4 +1,4 @@
-# Attend
+# Attend v1.0.02
 This is Software that help you to organize your career. Attend, is your solution to Do your work well.
 
 This Software Can Handle Your Career Task With Automation. For Instance, You can Manage Your Inventory. You Can Add your Products, Delete And Edit. You can Upload Your Products Images. You can Search Your Products and you can Export Your Data in Three Format. You can See Your Inventory.
@@ -20,6 +20,6 @@ This Software can manage Your Financial. You Can Add, Delete and Search Your Fin
 
 ![Screenshot (366)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/b30ff353-b63d-4494-a569-e84c302b8a9a)
 
-Attend Web Version v1.0.0.1 This Web Application Being Developed but This Web Application Has Same Attributes. You can Add, Delete, and Edit Inventory Information’s. I work on Search Attribute. Still Search Attribute Does not Work. You can Export Your Inventory Information’s as excel File.
+Attend Web Version v1.0.02 This Web Application Being Developed but This Web Application Has Same Attributes. You can Add, Delete, and Edit Inventory Information’s. I work on Search Attribute. Still Search Attribute Does not Work. You can Export Your Inventory Information’s as excel File.
 
 ![Screenshot (367)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/f26fcb9c-d769-457d-8c8c-6d7b5093e20a)
