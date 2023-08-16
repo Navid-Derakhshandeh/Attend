@@ -15,3 +15,7 @@ You Can Manage Your Reservation. You can Add Reservation, Delete them and Edit T
 You can Manage Your Clients. You Can Add Clients, Upload Client's Face And Edit Clients Information. You Can Search Your Clients with Theirs Information eventually see Your Clients Information. You can Export Your Clients Information as excel File.
 
 ![Screenshot (365)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/34bd8544-22fb-47bd-be03-8dfc411de013)
+
+You can manage Your Financial. You Can Add, Delete and Search Your Finance Information. This Software can draw graph of Your Finance Information’s. In addition, you Can Export Your Finance Information’s As excel File.
+
+![Screenshot (366)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/b30ff353-b63d-4494-a569-e84c302b8a9a)
