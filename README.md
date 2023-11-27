@@ -1,4 +1,10 @@
 # Attend v1.0.02
+Developer: Navid Derakhshandeh
+
+Email: navid.derakhshandeh1@gmail.com
+
+Email: perf.datre@gmail.com
+
 This is Software that help you to organize your career. Attend, is your solution to Do your work well.
 
 This Software Can Handle Your Career Task With Automation. For Instance, You can Manage Your Inventory. You Can Add your Products, Delete And Edit. You can Upload Your Products Images. You can Search Your Products and you can Export Your Data in Three Format. You can See Your Inventory.
