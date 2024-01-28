@@ -30,7 +30,7 @@ Attend Web Version v1.0.02 This Web Application Being Developed but This Web App
 
 ![Screenshot (367)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/f26fcb9c-d769-457d-8c8c-6d7b5093e20a)
 
-Sqlite Database Added. You can Run this Software very Simple, Only You must Move Attend V 1.0.04 Folder to Desktop Then Run it.
+Sqlite Database Added. You can Run this Software very Simple, Only You must Move Attend V 1.0.06 Folder to C Drive Then Run it.
 this version improved for Portable usages.(Note: Only Human Resources Segment Imroved Not all of the Segments) 
 ![Screenshot (477)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/b4ef58e2-926f-4535-b535-7954bc851f8c)
 
