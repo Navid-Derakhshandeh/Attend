@@ -1,0 +1,9 @@
+D:\Test4\Attend Blazor V1.0.2\DatabaseLib\bin\Debug\netcoreapp3.1\DatabaseLib.deps.json
+D:\Test4\Attend Blazor V1.0.2\DatabaseLib\bin\Debug\netcoreapp3.1\DatabaseLib.dll
+D:\Test4\Attend Blazor V1.0.2\DatabaseLib\bin\Debug\netcoreapp3.1\DatabaseLib.pdb
+D:\Test4\Attend Blazor V1.0.2\DatabaseLib\obj\Debug\netcoreapp3.1\DatabaseLib.csprojAssemblyReference.cache
+D:\Test4\Attend Blazor V1.0.2\DatabaseLib\obj\Debug\netcoreapp3.1\DatabaseLib.AssemblyInfoInputs.cache
+D:\Test4\Attend Blazor V1.0.2\DatabaseLib\obj\Debug\netcoreapp3.1\DatabaseLib.AssemblyInfo.cs
+D:\Test4\Attend Blazor V1.0.2\DatabaseLib\obj\Debug\netcoreapp3.1\DatabaseLib.csproj.CoreCompileInputs.cache
+D:\Test4\Attend Blazor V1.0.2\DatabaseLib\obj\Debug\netcoreapp3.1\DatabaseLib.dll
+D:\Test4\Attend Blazor V1.0.2\DatabaseLib\obj\Debug\netcoreapp3.1\DatabaseLib.pdb

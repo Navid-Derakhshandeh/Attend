@@ -1,0 +1,71 @@
+﻿@page "/Data/Inventory"
+
+@using DatabaseLib
+@using DatabaseLib.Data
+
+@inject IMS _DB
+<h3>Inventory List</h3>
+
+
+
+@if (products is null)
+{
+    <p><em>Waiting For List Loading...Do not Close Page.</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Date</th>
+                <th>Name</th>
+                <th>Manufacture</th>
+                <th>Model_Name</th>
+                <th>Quantity</th>
+                <th>Cost_Price</th>
+                <th>Sell_Price</th>
+                <th>Location</th>
+                <th>Condition</th>
+                <th>Availabel</th>
+                <th>Allocated</th>
+                <th>Suppliers</th>
+                <th>Notes</th>
+                <th>Category</th>
+                <th>Serial_Number</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var rows in products)
+            {
+            <tr>
+                <td>@rows.DateAdded</td>
+                <td>@rows.Name</td>
+                <td>@rows.Manufacture</td>
+                <td>@rows.Model_Name</td>
+                <td>@rows.Quantity</td>
+                <td>@rows.Cost_Price</td>
+                <td>@rows.Sell_Price</td>
+                <td>@rows.Location</td>
+                <td>@rows.Condition</td>
+                <td>@rows.Availabel</td>
+                <td>@rows.Allocated</td>
+                <td>@rows.Suppliers</td>
+                <td>@rows.Notes</td>
+                <td>@rows.Category</td>
+                <td>@rows.Serial_Number</td>
+            </tr>
+            }
+        </tbody>
+    </table>
+}
+
+                                                     
+@code {
+    private List<InventoryData> products;
+
+
+    protected override async Task OnInitializedAsync()
+    {
+        products = await _DB.GetData();
+    }
+}
