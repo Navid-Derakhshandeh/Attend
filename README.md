@@ -34,3 +34,12 @@ Sqlite Database Added. You can Run this Software very Simple, Only You must Move
 this version improved for Portable usages.(Note: Only Human Resources Segment Imroved Not all of the Segments) 
 ![Screenshot (477)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/b4ef58e2-926f-4535-b535-7954bc851f8c)
 
+Attend Blazor V 1.0.02 
+
+Attention:This version is being tested! This is the trial version! Does not have enough Attribute!
+
+![Screenshot (511)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/a912873c-c212-4f51-96e0-d6474ffa0c07)
+
+![Screenshot (512)](https://github.com/Navid-Derakhshandeh/Attend/assets/111235264/7364558e-0929-49cc-8fdd-896cd7779803)
+
+
